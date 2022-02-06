@@ -17,7 +17,7 @@ class User_account:
         '''
         User_account.user_accounts.append(self)
 
-    def delete_user_account():
+    def delete_user_account(self):
         '''
         method used to delete existing users from the list
         '''
