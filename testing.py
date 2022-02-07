@@ -34,6 +34,29 @@ class Test_user_Account(unittest.TestCase):
         self.new_user_account.save_new_user()
         self.assertEqual(len(User_account.user_accounts),1)
     
-    def 
-
+    def test_save_multiple_accounts(self):
+        '''
+        Checks if user can save multiple accounts in the user account list
+        '''
+        self.new_user_account.save_new_user()
+        Test_user_Account = User_account('TestUserFirstname','TestUserLastName','TestUsername','testPassword')
+        Test_user_Account.save_new_user()
+        self.assertEqual(len(User_account.user_accounts),2) 
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+if __name__ == '__main__':
+    unittest.main()
+        
