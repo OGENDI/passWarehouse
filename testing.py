@@ -27,4 +27,6 @@ class Test_user_Account(unittest.TestCase):
         self.assertEqual(self.new_user_account.username,'Dogendi')
         self.assertEqual(self.new_user_account.password,'CpFBaDYk')
 
+        
+
     
