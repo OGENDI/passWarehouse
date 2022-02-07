@@ -27,6 +27,13 @@ class Test_user_Account(unittest.TestCase):
         self.assertEqual(self.new_user_account.username,'Dogendi')
         self.assertEqual(self.new_user_account.password,'CpFBaDYk')
 
-        
+    def test_save_new_user(self):
+        '''
+        Tests if new user account has been save to list
+        '''
+        self.new_user_account.save_new_user()
+        self.assertEqual(len(User_account.user_accounts),1)
+    
+    def 
 
     
