@@ -112,7 +112,7 @@ def my_password_master():
                 print('A ---> Type existing password: ')
                 print('B ---> System generated password: ')
                 
-                choice == input().strip()
+                choice = input().strip()
 
                 if choice == 'A':
                     password = input('Type Password: ')
