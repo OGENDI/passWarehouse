@@ -65,8 +65,8 @@ def my_password_master():
         last_name = input('Type your last name: ')
         username = input('Type your preferred username: ')
         while True:
-            print('     SP -----> System Generated Password')
-            print('     UP -------> User defined Password')
+            print('SP -----> System Generated Password')
+            print('UP -------> User defined Password')
 
             user_entry = input('').upper()
             if user_entry == 'SP':
