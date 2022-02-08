@@ -49,7 +49,7 @@ def system_generated_password():
 
 def my_password_master():
     print('--------------------Welcome to your password vault-----------------------')
-    print('Please enter your name: ')
+    print('Please enter your name before we proceed. ')
 
     visitor = input()
 
