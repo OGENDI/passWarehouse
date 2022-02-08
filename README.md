@@ -49,7 +49,7 @@ The user would like to do the following:
 
 ## Behaviour Driven Development
 | Behaviour | Input | Output |
-| :---------------- | :---------------: | ------------------: |
+| :----------------: | :---------------: | ------------------: |
 |Open the application on the terminal | Run the command ```$ ./run.py```|Hello Welcome to your Accounts Password Vault... <br>* CA ---  Create New Account * LI ---  Have An Account |
 |Select  CA| input username and password| Hello ```username```, Your account has been created succesfully! Your password is: ```password```|
 |Select LI  | Enter your password and username you signed up with| Abbreviations menu to help you navigate through the application|
